@@ -711,6 +711,14 @@ ol {
     body {
       font-size: 16px; /* Cambiar el tamaño de fuente para pantallas pequeñas */
     }
+    .hero {
+        height: 50vh;
+        
+    }
+    .hero img {
+        width: 100%; /* Ajusta automáticamente el ancho de la imagen al contenedor */
+        max-width: 600px; /* Establece un ancho máximo de 600 píxeles para la imagen */
+    }
   
     .header {
       display: none; /* Ocultar el encabezado en pantallas pequeñas */
