@@ -472,6 +472,10 @@ ol {
     :root {
         --boton-padding: 18px 40px;
     }
+    .ubicacion iframe {
+        width: 100%; /* Ancho completo del contenedor */
+        height: 300px; /* Altura diferente para pantallas más pequeñas */
+    }
 
     .nav {
         justify-content: space-around;
@@ -559,6 +563,10 @@ ol {
 @media screen and (max-width: 500px) {
     :root {
         --boton-padding: 18px 35px;
+    }
+    .ubicacion iframe {
+        width: 100%; /* Ancho completo del contenedor */
+        height: 300px; /* Altura diferente para pantallas más pequeñas */
     }
 
     .subtitle {
@@ -711,10 +719,15 @@ ol {
     body {
       font-size: 16px; /* Cambiar el tamaño de fuente para pantallas pequeñas */
     }
+    .ubicacion iframe {
+        width: 100%; /* Ancho completo del contenedor */
+        height: 300px; /* Altura diferente para pantallas más pequeñas */
+    }
     .hero {
         height: 50vh;
         
     }
+
     .hero img {
         width: 100%; /* Ajusta automáticamente el ancho de la imagen al contenedor */
         max-width: 600px; /* Establece un ancho máximo de 600 píxeles para la imagen */
@@ -728,3 +741,9 @@ ol {
       background-color: #ccc; /* Cambiar el fondo del pie de página en pantallas pequeñas */
     }
   }
+  @media (max-width: 600px) {
+    .ubicacion iframe {
+        width: 100%; /* Ancho completo del contenedor */
+        height: 300px; /* Altura diferente para pantallas más pequeñas */
+    }
+}
