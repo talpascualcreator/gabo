@@ -719,6 +719,19 @@ ol {
     body {
       font-size: 16px; /* Cambiar el tamaño de fuente para pantallas pequeñas */
     }
+    nav {
+        justify-content: flex-start; /* Coloca el contenido en la parte superior */
+        padding: 15px; /* Añade espacio interno para que sea más pequeño */
+    }
+
+    .hero {
+        background: url('../imagenes/moto1.jpeg') no-repeat center center fixed;
+        background-size: 100% 40%; /* Estira la imagen verticalmente */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top; /* Ajustado a "top" para alinear la imagen con la parte superior */
+        position: relative;
+    }
     .ubicacion iframe {
         width: 100%; /* Ancho completo del contenedor */
         height: 300px; /* Altura diferente para pantallas más pequeñas */
@@ -741,9 +754,3 @@ ol {
       background-color: #ccc; /* Cambiar el fondo del pie de página en pantallas pequeñas */
     }
   }
-  @media (max-width: 600px) {
-    .ubicacion iframe {
-        width: 100%; /* Ancho completo del contenedor */
-        height: 300px; /* Altura diferente para pantallas más pequeñas */
-    }
-}
