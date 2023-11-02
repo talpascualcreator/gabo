@@ -754,3 +754,16 @@ ol {
       background-color: #ccc; /* Cambiar el fondo del pie de página en pantallas pequeñas */
     }
   }
+  @media only screen and (max-width: 400px){
+    .hero {
+        background: url('../imagenes/moto1.jpeg') no-repeat center center fixed;
+        background-size: 100% 40%; /* Estira la imagen verticalmente */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top; /* Ajustado a "top" para alinear la imagen con la parte superior */
+        position: relative;
+    }
+    .presentation__copy{
+        font-size: 16px;
+    }
+  }
